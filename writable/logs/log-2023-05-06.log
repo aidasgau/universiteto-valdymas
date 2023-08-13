@@ -1,0 +1,464 @@
+CRITICAL - 2023-05-06 11:25:27 --> file_get_contents(public/universityproject.sql): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(public/universityproject.sql): Failed to open stream: No such file or directory', 'C:\\XAMPP\\htdocs\\university\\app\\Controllers\\Home.php', 13)
+ 2 APPPATH\Controllers\Home.php(13): file_get_contents('public/universityproject.sql')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:34:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:34:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:35:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:35:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:35:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:35:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:35:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:35:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:36:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:36:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:36:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:36:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:37:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:37:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:37:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:37:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:37:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:37:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:37:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:37:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:37:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:37:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-06 11:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-05-06 11:37:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:37:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:38:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$enrollments_model is deprecated in APPPATH\Controllers\Enrollments.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:38:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$students_model is deprecated in APPPATH\Controllers\Enrollments.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:38:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$courses_model is deprecated in APPPATH\Controllers\Enrollments.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:38:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$enrollments_model is deprecated in APPPATH\Controllers\Enrollments.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:38:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$students_model is deprecated in APPPATH\Controllers\Enrollments.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:38:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$courses_model is deprecated in APPPATH\Controllers\Enrollments.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:38:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$enrollments_model is deprecated in APPPATH\Controllers\Enrollments.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:38:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$students_model is deprecated in APPPATH\Controllers\Enrollments.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:38:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$courses_model is deprecated in APPPATH\Controllers\Enrollments.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:38:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$grades_model is deprecated in APPPATH\Controllers\Grades.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:38:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$enrollments_model is deprecated in APPPATH\Controllers\Grades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:39:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$grades_model is deprecated in APPPATH\Controllers\Grades.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:39:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$enrollments_model is deprecated in APPPATH\Controllers\Grades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:39:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Instructors::$instructors_model is deprecated in APPPATH\Controllers\Instructors.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Instructors->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:39:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Instructors::$instructors_model is deprecated in APPPATH\Controllers\Instructors.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Instructors->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:39:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Students::$students_model is deprecated in APPPATH\Controllers\Students.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Students->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:39:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Students::$students_model is deprecated in APPPATH\Controllers\Students.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Students->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:40:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Students::$students_model is deprecated in APPPATH\Controllers\Students.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Students->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:41:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Students::$students_model is deprecated in APPPATH\Controllers\Students.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Students->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:41:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Students::$students_model is deprecated in APPPATH\Controllers\Students.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Students->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:41:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Instructors::$instructors_model is deprecated in APPPATH\Controllers\Instructors.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Instructors->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$grades_model is deprecated in APPPATH\Controllers\Grades.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$enrollments_model is deprecated in APPPATH\Controllers\Grades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$enrollments_model is deprecated in APPPATH\Controllers\Enrollments.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$students_model is deprecated in APPPATH\Controllers\Enrollments.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$courses_model is deprecated in APPPATH\Controllers\Enrollments.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$enrollments_model is deprecated in APPPATH\Controllers\Enrollments.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$students_model is deprecated in APPPATH\Controllers\Enrollments.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$courses_model is deprecated in APPPATH\Controllers\Enrollments.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$grades_model is deprecated in APPPATH\Controllers\Grades.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$enrollments_model is deprecated in APPPATH\Controllers\Grades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Instructors::$instructors_model is deprecated in APPPATH\Controllers\Instructors.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Instructors->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Students::$students_model is deprecated in APPPATH\Controllers\Students.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Students->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Instructors::$instructors_model is deprecated in APPPATH\Controllers\Instructors.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Instructors->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$grades_model is deprecated in APPPATH\Controllers\Grades.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$enrollments_model is deprecated in APPPATH\Controllers\Grades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$enrollments_model is deprecated in APPPATH\Controllers\Enrollments.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$students_model is deprecated in APPPATH\Controllers\Enrollments.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$courses_model is deprecated in APPPATH\Controllers\Enrollments.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:42:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$enrollments_model is deprecated in APPPATH\Controllers\Enrollments.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$students_model is deprecated in APPPATH\Controllers\Enrollments.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$courses_model is deprecated in APPPATH\Controllers\Enrollments.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$grades_model is deprecated in APPPATH\Controllers\Grades.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$enrollments_model is deprecated in APPPATH\Controllers\Grades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Instructors::$instructors_model is deprecated in APPPATH\Controllers\Instructors.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Instructors->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Students::$students_model is deprecated in APPPATH\Controllers\Students.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Students->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Instructors::$instructors_model is deprecated in APPPATH\Controllers\Instructors.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Instructors->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$grades_model is deprecated in APPPATH\Controllers\Grades.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Grades::$enrollments_model is deprecated in APPPATH\Controllers\Grades.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Grades->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$enrollments_model is deprecated in APPPATH\Controllers\Enrollments.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$students_model is deprecated in APPPATH\Controllers\Enrollments.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$courses_model is deprecated in APPPATH\Controllers\Enrollments.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$courses_model is deprecated in APPPATH\Controllers\Courses.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Courses::$instructors_model is deprecated in APPPATH\Controllers\Courses.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Courses->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$enrollments_model is deprecated in APPPATH\Controllers\Enrollments.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$students_model is deprecated in APPPATH\Controllers\Enrollments.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 11:48:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Enrollments::$courses_model is deprecated in APPPATH\Controllers\Enrollments.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Enrollments->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
